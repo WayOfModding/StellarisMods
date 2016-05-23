@@ -1,0 +1,38 @@
+
+# GreatStorage
+GreatStorage = {
+	base_buildtime = 0
+	icon = "building_mineral_silo_1"
+	
+	cost = {
+		minerals = 5000
+	}
+	
+	allow = {
+		custom_tooltip = {
+			text = "Juran shi Xinxi?!"
+			planet = {
+				#OR = {
+				#	is_planet_class = pc_barren
+				#	is_planet_class = pc_barren_cold
+				#}
+			}
+		}
+	}
+	
+	planet_unique = yes
+	empire_unique = yes
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	country_modifier = {
+		max_energy = 1000000
+		max_minerals = 1000000
+	}
+	
+	#prerequisites = {
+	#	"tech_mineral_processing_2"
+	#}
+}

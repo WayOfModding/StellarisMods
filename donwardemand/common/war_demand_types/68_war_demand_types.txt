@@ -1,0 +1,81 @@
+# 1,000
+war_reparation_1k = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+
+	warscore_cost = {
+		base = 5
+	}
+	
+	potential = {
+		parameter:country = {
+			is_country = from
+		}
+	}
+	
+	effect = {
+		fromfromfrom = { add_energy = 1000 }
+		parameter:country = { add_energy = -1000 }
+	}
+	
+	ai_weight = { base = 1001 }
+}
+
+war_reparation_2k = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+
+	warscore_cost = {
+		base = 10
+	}
+	
+	potential = {
+		parameter:country = {
+			is_country = from
+		}
+	}
+	
+	effect = {
+		fromfromfrom = { add_energy = 2000 }
+		parameter:country = { add_energy = -2000 }
+	}
+	
+	ai_weight = { base = 1001 }
+}
+
+war_reparation_3k = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+
+	warscore_cost = {
+		base = 15
+	}
+	
+	potential = {
+		parameter:country = {
+			is_country = from
+		}
+	}
+	
+	effect = {
+		fromfromfrom = { add_energy = 3000 }
+		parameter:country = { add_energy = -3000 }
+	}
+	
+	ai_weight = { base = 1001 }
+}

@@ -1,0 +1,54 @@
+demolish_module_1 = {
+	icon = "GFX_spaceport_module_slot"
+	section = "CORE_SPACEPORT_SECTION"
+	construction_days = 1
+	spaceport_level = 1
+	ai_weight = { 
+		weight = 1000
+	}
+}
+demolish_module_2 = {
+	icon = "GFX_spaceport_module_slot"
+	section = "CORE_SPACEPORT_SECTION"
+	construction_days = 1
+	spaceport_level = 1
+	ai_weight = { 
+		weight = 1000
+	}
+}
+demolish_module_3 = {
+	icon = "GFX_spaceport_module_slot"
+	section = "CORE_SPACEPORT_SECTION"
+	construction_days = 1
+	spaceport_level = 1
+	ai_weight = { 
+		weight = 1000
+	}
+}
+demolish_module_4 = {
+	icon = "GFX_spaceport_module_slot"
+	section = "CORE_SPACEPORT_SECTION"
+	construction_days = 1
+	spaceport_level = 1
+	ai_weight = { 
+		weight = 1000
+	}
+}
+demolish_module_5 = {
+	icon = "GFX_spaceport_module_slot"
+	section = "CORE_SPACEPORT_SECTION"
+	construction_days = 1
+	spaceport_level = 1
+	ai_weight = { 
+		weight = 1000
+	}
+}
+demolish_module_6 = {
+	icon = "GFX_spaceport_module_slot"
+	section = "CORE_SPACEPORT_SECTION"
+	construction_days = 1
+	spaceport_level = 1
+	ai_weight = { 
+		weight = 1000
+	}
+}
